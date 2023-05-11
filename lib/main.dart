@@ -17,14 +17,15 @@ class MyApp extends StatelessWidget {
       title: 'Welcome to Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'), backgroundColor: Colors.green,
+          title: const Text('Welcome to Flutter'),
+          backgroundColor: Colors.green,
         ),
-        body: const Center(
-          child: Text('Hello World', style: TextStyle(color: Colors.yellowAccent),),
-
+        body: Center(
+          child: Column(
+            children: [Text('data'), Text('data')],
+          ),
         ),
         backgroundColor: Colors.redAccent,
-
       ),
     );
   }
