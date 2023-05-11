@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Column(
-            children: [Text('data')],
+            children: [Text('data'), Text('data')],
           ),
         ),
         backgroundColor: Colors.redAccent,
